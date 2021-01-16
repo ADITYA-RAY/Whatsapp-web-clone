@@ -1,0 +1,164 @@
+﻿
+.s1a{width:97%;background-color: #00bfa5;overflow: hidden;font-size: 17px;color: rgb(248, 237, 237);padding:5px 20px; margin:0px; position: fixed;}
+body{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+.sidebar {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 30px;
+    left: 0;
+    background-color: rgb(248, 244, 244);
+    overflow-x: hidden;
+    padding-top: 0;
+  }
+  .s1{width: 100%;
+background-color: rgb(252, 248, 248);
+margin-top: 0;}
+.s2{width: 100%;
+    background-color: rgb(241, 232, 232);
+    margin-top: 0;
+    padding: 5px;
+text-align: center;}
+.s4{width: 69%;
+    background-color: rgb(241, 232, 232);
+    bottom:0;
+right: 0;
+    padding: 10px;
+    position: fixed;
+    text-align: left;
+    float: left;
+}
+.s5{width: 69.5%;
+    background-color: rgb(241, 232, 232);
+    top:30px;
+right: 0;
+    padding: 5px;
+    position: fixed;
+    text-align: left;
+    float: left;
+}
+
+
+#num {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #num td, #num th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 17px;
+  }
+  
+  #num tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #num tr:hover {background-color: #ddd;}
+  
+  #num th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .s2 input[type=text] {
+    border: 1px solid rgb(255, 255, 255); 
+    border-radius: 20px; 
+    padding-left: 100px;
+    height: 35px;
+    width: 95%;
+  }
+  .s4 input[type=text] {
+    border: 1px solid rgb(255, 255, 255); 
+    border-radius: 20px; 
+    height: 45px;
+    width:80%;
+    margin: 0;
+    padding: 5px;
+  }
+
+
+  .tabcontent {
+    float: right;
+    padding: 100px 12px;
+    border: 1px solid #ccc;
+    background-image: url("background.jpg");
+    width: 68%;
+    border-left: none;
+  min-height:700px;
+  height: fit-content;
+  background-attachment: fixed;
+    overflow-y: scroll;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px 100px 10px 100px;
+    padding: 1px 20px 5px 20px;
+    float: left;
+    background-color: #ffffff;
+    width: fit-content;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px 100px 10px 100px;
+    padding: 1px 20px 5px 20px;
+    
+    background-color: #87c47f;
+    width: fit-content;
+    max-width: 300px;
+    float: right;
+    border-radius: 5px;
+  }
+  .dropbtn {
+    background-color:  rgb(252, 248, 248);
+    color: rgb(61, 61, 61);
+    padding: 10px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    text-align: right
+  }
+  
+  .dropbtn:hover {
+    background-color:  rgb(252, 248, 248);
+    
+  }
+  .dropbtn:focus {
+    background-color:   rgb(252, 248, 248);
+    border-radius: 50%;
+    border: 0px solid rgb(252, 248, 248) ;
+  }.dropdown {position: relative;display: inline-block;}
+   .dropdown-content { display: none;position: absolute;background-color: #f1f1f1;min-width: 160px;overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {border: none;}
+  
+  .show {display: block;}
